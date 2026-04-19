@@ -16,9 +16,7 @@ A premium, view-only digital catalog system for SwacHh Mart, built with the MERN
 * **Output Directory**: `dist`
 * **Required Environment Variables**:
   * `VITE_API_URL`: URL of your deployed Render backend.
-  * `VITE_ADMIN_PHONE`: Admin login phone number.
-  * `VITE_ADMIN_PASSWORD`: Admin login password.
-
+  
 ### 2. Backend (Render)
 * **Status**: Deployed
 * **URL**: [https://swachh-mart-backend.onrender.com](https://swachh-mart-backend.onrender.com) (Example)
