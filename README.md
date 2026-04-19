@@ -1,6 +1,6 @@
 # SwacHhMart - Digital Supermarket Catalog
 
-A premium, view-only digital catalog system for SwacHh Mart, built with the MERN stack.
+A premium, view-only digital catalog system for SwacHh Mart, built with the MERN stack. https://swachhmart.vercel.app/
 
 ## Project Structure
 * **frontend/**: React (Vite) frontend with luxury UI components and SPA routing.
