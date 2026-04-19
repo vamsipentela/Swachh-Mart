@@ -2,5 +2,12 @@ node_modules/
 .env
 dist/
 build/
-.DS_Store
+coverage/
 *.log
+.DS_Store
+frontend/node_modules/
+backend/node_modules/
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
