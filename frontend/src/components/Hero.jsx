@@ -11,9 +11,15 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content-wrapper">
           <div className="hero-text-side">
-            <div className="hero-badge fade-in-up">
-              <span className="badge-dot"></span>
-              Freshly Stocked Today
+            <div className="hero-badge-container fade-in-up">
+              <div className="hero-badge">
+                <span className="badge-dot"></span>
+                Freshly Stocked Today
+              </div>
+              <div className="hero-badge">
+                <span className="badge-dot" style={{ backgroundColor: '#F59E0B' }}></span>
+                Best Price Guarantee
+              </div>
             </div>
             
             <h1 className="hero-title fade-in-up">
