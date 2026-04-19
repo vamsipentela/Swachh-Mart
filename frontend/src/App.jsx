@@ -37,7 +37,7 @@ function App() {
           <div className="container">
             <div className="footer-luxury-grid">
               <div className="f-col main-brand">
-                <div className="footer-logo">Swachh<span>Mart</span></div>
+                <div className="footer-logo">SwacHh<span>Mart</span></div>
                 <p className="f-bio">Your neighborhood's premium supermarket, committed to quality, cleanliness, and convenience: every single day.</p>
                 <div className="footer-capsule-badge">
                   <i className="bi bi-patch-check-fill"></i>
@@ -79,7 +79,7 @@ function App() {
             </div>
 
             <div className="footer-bottom-v3">
-              <p>&copy; {new Date().getFullYear()} Swachh Mart. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} SwacHh Mart. All rights reserved.</p>
             </div>
           </div>
         </footer>

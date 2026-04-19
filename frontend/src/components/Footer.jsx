@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="modern-footer">
       <div className="container footer-grid-v4">
         <div className="footer-brand">
-          <div className="logo-footer">Swachh<span>Mart</span>.</div>
+          <div className="logo-footer">SwacHh<span>Mart</span>.</div>
           <p className="brand-pitch">Redefining fresh. We source the best, so you can eat the best. Your neighborhood's favorite supermarket is now just a click away.</p>
           <div className="social-links-footer">
             <a href="#" className="social-icon"><i className="bi bi-facebook"></i></a>
@@ -52,7 +52,7 @@ const Footer = () => {
       <div className="container footer-bottom-v4">
         <div className="divider"></div>
         <div className="bottom-flex">
-          <p>&copy; {new Date().getFullYear()} Swachh Mart. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SwacHh Mart. All rights reserved.</p>
           <div className="legal-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Cookie Settings</a>

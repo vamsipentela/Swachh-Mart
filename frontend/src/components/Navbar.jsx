@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Logo (Left) */}
           <div className="nav-left">
             <Link to="/" className="logo-v2" onClick={closeMenu}>
-              Swachh<span>Mart</span>.
+              SwacHh<span>Mart</span>.
             </Link>
           </div>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
       <div className={`mobile-menu-drawer ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="mobile-menu-header">
           <Link to="/" className="logo-v2" onClick={closeMenu}>
-            Swachh<span>Mart</span>.
+            SwacHh<span>Mart</span>.
           </Link>
           <button className="close-menu-icon" onClick={toggleMobileMenu}>
             <i className="bi bi-x"></i>
