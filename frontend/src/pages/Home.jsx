@@ -1,4 +1,5 @@
 import React from 'react';
+import storyImage from '../assets/story_image.png';
 import Hero from '../components/Hero';
 import CategorySection from '../components/CategorySection';
 
@@ -13,8 +14,8 @@ const Home = () => {
             <div className="story-visual-side">
               <div className="story-image-main-wrapper">
                 <img
-                  src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80"
-                  alt="Inside Swachh Mart"
+                  src={storyImage}
+                  alt="Inside SwacHh Mart"
                   className="story-image-main"
                   loading="lazy"
                 />
