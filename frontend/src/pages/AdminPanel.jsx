@@ -47,7 +47,7 @@ const AdminPanel = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (loginForm.phone === '9652170506' && loginForm.password === 'Vamsi###123') {
+    if (loginForm.phone === import.meta.env.VITE_ADMIN_PHONE && loginForm.password === import.meta.env.VITE_ADMIN_PASSWORD) {
       setIsLoggedIn(true);
       setLoginError('');
     } else {
