@@ -396,9 +396,9 @@
 
   .hero-premium {
     min-height: 100vh;
-    padding: 0;
+    padding-top: 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 }
