@@ -395,28 +395,35 @@
   }
 
   .hero-premium {
-    min-height: 100vh;
-    padding-top: 40px;
+    height: 100vh;
+    padding: 0;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+
+  .hero-container {
+     transform: translateY(-5%);
   }
 }
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 2.4rem;
-    margin-bottom: 12px;
+    font-size: 2.65rem;
+    margin-bottom: 20px;
   }
 
   .hero-cta-group {
     flex-direction: column;
     width: 100%;
-    gap: 12px;
+    gap: 16px;
+    margin-bottom: 40px;
   }
 
   .hero-description {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+    font-size: 1.15rem;
   }
 
   .hero-btn-primary {
